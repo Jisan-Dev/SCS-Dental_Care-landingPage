@@ -92,6 +92,7 @@ body {
   background-color: orangered;
   padding: 8px;
   border-radius: 50px;
+  cursor: pointer;
 }
 
 #nav__part2 {
@@ -105,6 +106,7 @@ body {
   font-weight: 500;
   font-size: 1.375rem;
   text-transform: uppercase;
+  cursor: pointer;
 }
 
 #nav button {

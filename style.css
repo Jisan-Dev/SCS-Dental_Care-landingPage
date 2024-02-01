@@ -89,7 +89,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: orangered;
+  background-color: #fe4e26;
   padding: 8px;
   border-radius: 50px;
   cursor: pointer;
@@ -121,7 +121,7 @@ body {
 
 #nav button:nth-child(2) {
   margin-left: -3.5px;
-  background-color: orangered;
+  background-color: #fe4e26;
   color: white;
   border: 1.5px solid orangered;
 }

@@ -125,3 +125,26 @@ body {
   color: white;
   border: 1.5px solid orangered;
 }
+
+/* Hero Section */
+#hero {
+  border: 1px solid aqua;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+#hero h1 {
+  font-size: 150px;
+  font-weight: 500;
+}
+
+#hero__imgContainer {
+  position: absolute;
+}
+#hero img {
+  width: 385px;
+  height: 460px;
+  object-fit: cover;
+}

@@ -54,7 +54,7 @@ body {
 
 /* Header -----*/
 #nav {
-  height: 100px;
+  height: 70px;
   width: 100%;
   align-items: center;
   justify-content: space-between;
@@ -129,6 +129,7 @@ body {
 /* Hero Section */
 #hero {
   border: 1px solid aqua;
+  height: calc(100vh - 70px);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -140,11 +141,21 @@ body {
   font-weight: 500;
 }
 
-#hero__imgContainer {
+#hero img {
+  width: 370px;
+  height: 430px;
+  object-fit: cover;
+  object-position: top;
+  border-radius: 20px;
   position: absolute;
 }
-#hero img {
-  width: 385px;
-  height: 460px;
-  object-fit: cover;
+
+#hero :nth-child(2) {
+  transform: rotate(-30deg);
+}
+#hero :nth-child(3) {
+  transform: rotate(-20deg);
+}
+#hero :nth-child(4) {
+  transform: rotate(-10deg);
 }

@@ -159,3 +159,15 @@ body {
 #hero :nth-child(4) {
   transform: rotate(-10deg);
 }
+
+#hero__footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  padding: 0 20px;
+}
+
+#hero__footer-btmleft {
+  font-weight: 500;
+  font-size: 18px;
+}
